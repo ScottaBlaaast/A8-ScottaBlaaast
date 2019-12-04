@@ -1,3 +1,4 @@
+package a8;
 import java.awt.BasicStroke;
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -30,7 +31,7 @@ public class JSpotBoard extends JPanel
 	
 	public JSpotBoard(int width, int height)
 	{
-		if (width < 1 || height < 1 || width > 501 || height > 501)
+		if (width < 1 || height < 1)
 			throw new IllegalArgumentException("Illegal spot board geometry");
 		
 		setLayout(new BorderLayout());

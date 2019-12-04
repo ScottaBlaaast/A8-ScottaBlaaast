@@ -1,6 +1,7 @@
+package a8;
 import javax.swing.JFrame;
 
-public class Main
+public class GameOfLife
 {
 	public static void main(String[] args)
 	{
